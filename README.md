@@ -1,4 +1,5 @@
 Houdini ML Skeleton Retarget
+
 An ML tool that automatically matches joints between different character skeletons in SideFX Houdini.
 If you've ever had to manually map bones between two different rigs, you know how tedious it is. This tool does it for you. It extracts geometric features from both skeletons, runs them through a trained neural network to score every possible joint pair, then uses the Hungarian algorithm to find the optimal 1-to-1 match.
 How It Works
